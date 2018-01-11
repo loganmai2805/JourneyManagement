@@ -1,0 +1,39 @@
+header{
+    position: relative;
+    top: 0px;
+    background: linear-gradient(to top left, #434343 0%, #000000 60%);
+}
+
+.logo-img{
+    width: 50%;
+    min-width: 90px;
+    min-height: 44px;
+    height: 44px;
+}
+
+.header-icon{
+    color: #e0e0e0;
+    font-size: xx-large;
+    text-align: end;
+}
+
+@media screen and (max-width: 991px) {
+    header{
+        text-align: center;
+        background: linear-gradient(to left, #0033cc 0%, #000099 100%);
+    }
+
+    .logo-img{
+        width: 0%;
+    }
+
+    .header-icon{
+        background: #222;
+        text-align: center;
+    }
+
+    #avatar{
+        visibility: hidden;
+        display: none;
+    }
+}
